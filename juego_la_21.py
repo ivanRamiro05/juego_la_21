@@ -8,13 +8,16 @@ print("2.0 las apuestas se realizaran fuera del juego")
 print("3.0 el jugador que se pase el 21 puntos pierde")
 
 print("¿aceptas las reglas del juego?")
+
 print("si. pon un si en la badeja de respuestas")
 print("no. pon un no en la badeja de respuestas")
 opcion=(input("\n Dame la opción: "))
-if (opcion==si):
-"sigue con el juego"
-else:
-"el juego se acaba aca"
+while opcion==1: 
+    bandera:True
+#else opcion==2 :
+
+
+
 
 jugadores=int(input("ingrese la cantidad de jugadores de la partida: "))
 
